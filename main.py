@@ -32,6 +32,7 @@ for _ in range(nr_symbols):
   new_list.append(random.choice(symbols))
 for _ in range(nr_numbers):
   new_list.append(random.choice(numbers))
+  
 random.shuffle(new_list)
 print(new_list)
 for el in new_list:
